@@ -5,7 +5,7 @@ Durante el proceso de trasladar el diagrama de clases UML a código Java se enco
 
 ### 1. Uso de tipos enum
 
-En el diagrama UML algunos atributos fueron definidos utilizando el tipo general `enum`. Al trasladarlos a Java fue necesario especificar el tipo concreto de cada enumeración.
+En el diagrama UML algunos atributos fueron definidos utilizando el tipo general enum. Al trasladarlos a Java fue necesario especificar el tipo concreto de cada enumeración.
 
 Por ejemplo:
 
@@ -18,7 +18,7 @@ Por ejemplo:
 
 Este cambio fue necesario porque Java requiere indicar explícitamente el tipo de enumeración utilizado por cada atributo.
 
-### 2. Tipo `Masa`
+### 2. Tipo Masa
 
 En la clase Pizza, el UML establece el atributo tipoDeBase : Masa. Para conservar esta estructura fue necesario crear Masa como un tipo dentro del proyecto.
 
